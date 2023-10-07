@@ -1,13 +1,13 @@
 {
     "manufacturer": "PJE66",
-    "keyboard_name": "hummingbird",
+    "keyboard_name": "buteo",
     "maintainer": "kilipan",
     "bootloader": "rp2040",
     "processor": "RP2040",
     "url": "https://github.com/PJE66/hummingbird",
     "usb": {
         "vid": "0xFEED",
-        "pid": "0x0888",
+        "pid": "0x0777",
         "device_version": "0.0.1"
     },
     "layouts": {
