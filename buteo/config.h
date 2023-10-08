@@ -2,11 +2,11 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once
-// #include "config_common.h"
 
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET // Activates the double-tap behavior
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 1000U
 
+// Fiddly setup for having I2C on GP0/1
 #define I2C_DRIVER I2CD0
 #define I2C1_SDA_PIN GP0
 #define I2C1_SCL_PIN GP1
@@ -31,8 +31,7 @@
 // Configure for the Cirque Trackpad
 #define CIRQUE_PINNACLE_DIAMETER_MM 40
 #define CIRQUE_PINNACLE_CURVED_OVERLAY
-
-// #define CIRQUE_PINNACLE_ATTENUATION EXTREG__TRACK_ADCCONFIG__ADC_ATTENUATE_2X
+#define CIRQUE_PINNACLE_ATTENUATION EXTREG__TRACK_ADCCONFIG__ADC_ATTENUATE_2X
 
 #define ENCODERS_PAD_A                                                         \
   { GP4 }
