@@ -1,0 +1,15 @@
+{
+    "keyboard_name": "CNano Encoder",
+    "rgb_matrix": {
+        "split_count": [18, 18],
+        "driver": "ws2812",
+        "animations": {
+            "cycle_left_right": true
+        },
+        "default": {
+            "speed": 32,
+            "val": 64
+        },
+        "sleep": true
+    }
+}

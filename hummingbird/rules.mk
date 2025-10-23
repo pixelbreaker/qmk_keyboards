@@ -19,8 +19,8 @@ COMMAND_ENABLE = no         # Commands for debug and configuration
 ENCODER_ENABLE = no
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = yes        # Enable keyboard RGB underglow
-RGBLIGHT_DRIVER = WS2812
-WS2812_DRIVER = vendor
+# RGBLIGHT_DRIVER = ws2812
+# WS2812_DRIVER = vendor
 RGB_MATRIX_SUPPORTED = no
 RGB_MATRIX_ENABLE = no 
 

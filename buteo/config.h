@@ -11,16 +11,10 @@
 #define I2C1_SDA_PIN GP0
 #define I2C1_SCL_PIN GP1
 
-//* also configured in info.json
-#define MATRIX_ROW_PINS                                                        \
-  { GP6, GP7, GP8, GP26, GP15, GP14 }
-#define MATRIX_COL_PINS                                                        \
-  { GP9, GP10, GP11, GP12, GP13, GP27 }
+// #define DIODE_DIRECTION COL2ROW
 
-#define DIODE_DIRECTION COL2ROW
-
-#define MATRIX_ROWS 6
-#define MATRIX_COLS 6
+// #define MATRIX_ROWS 6
+// #define MATRIX_COLS 6
 
 // Limits the frequency that the sensor is polled for motion.
 #define POINTING_DEVICE_TASK_THROTTLE_MS 10
@@ -37,5 +31,6 @@
   { GP4 }
 #define ENCODERS_PAD_B                                                         \
   { GP5 }
-#define ENCODER_RESOLUTIONS                                                    \
-  { 4 }
+
+#define ENCODER_RESOLUTION 4
+#define ENCODER_DEFAULT_POS 0x3

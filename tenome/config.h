@@ -19,10 +19,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 // wiring of each half
-#define MATRIX_COL_PINS                                                        \
-  { GP8, GP7, GP6, GP5, GP4 }
-#define MATRIX_ROW_PINS                                                        \
-  { GP21, GP29, GP28, GP27 }
+// #define MATRIX_COL_PINS  { GP8, GP7, GP6, GP5, GP4 }
+// #define MATRIX_ROW_PINS  { GP21, GP29, GP28, GP27 }
 
 #define DIODE_DIRECTION COL2ROW
 #define USB_POLLING_INTERVAL_MS 1
@@ -69,10 +67,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   { GP22 }
 #define ENCODER_RESOLUTIONS                                                    \
   { 4 }
-#define ENCODERS_PAD_A_RIGHT                                                   \
-  {}
-#define ENCODERS_PAD_B_RIGHT                                                   \
-  {}
+// #define ENCODERS_PAD_A_RIGHT {}
+// #define ENCODERS_PAD_B_RIGHT {}
 #define ENCODER_RESOLUTIONS_RIGHT                                              \
   {}
 
@@ -95,7 +91,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #endif
 #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 128
 #define SPLIT_TRANSPORT_MIRROR
-#define RGB_DISABLE_WHEN_USB_SUSPENDED
+#define RGB_MATRIX_SLEEP
 #define RGB_MATRIX_KEYPRESSES
 
 // Startup values.
