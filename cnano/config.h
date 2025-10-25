@@ -27,11 +27,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Handedness. */
 #define MASTER_RIGHT
 
-// To use the handedness pin, resistors need to be installed on the adapter PCB.
-// If so, uncomment the following code, and undefine MASTER_RIGHT above.
-// #define SPLIT_HAND_PIN GP15
-// #define SPLIT_HAND_PIN_LOW_IS_LEFT  // High -> right, Low -> left.
-
 /* SPI & PMW3360 settings. */
 #define SPI_DRIVER SPID0
 #define SPI_SCK_PIN GP22
@@ -44,8 +39,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_LED GP17
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 1000U
-
-// Cirque trackpad
 
 #define SPLIT_POINTING_ENABLE
 

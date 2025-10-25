@@ -1,8 +1,8 @@
 {
+  "features": {
+    "encoder": true
+  },
   "encoder": {
     "rotary": [{ "pin_a": "GP15", "pin_b": "GP16", "resolution": 4 }]
-  },
-  "rgb_matrix": {
-    "driver": "ws2812"
   }
 }

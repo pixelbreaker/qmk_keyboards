@@ -11,6 +11,9 @@
     "device_version": "0.0.2"
   },
   "diode_direction": "COL2ROW",
+  "bootmagic": {
+    "matrix": [0, 0]
+  },
   "encoder": {
     "rotary": [{ "pin_a": "GP4", "pin_b": "GP5", "resolution": 4 }]
   },
