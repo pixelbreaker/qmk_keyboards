@@ -49,19 +49,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MOUSEKEY_MAX_SPEED 7
 // #define MOUSEKEY_WHEEL_DELAY 0
 
-#define ENCODERS_PAD_A \
-    {}
-#define ENCODERS_PAD_B \
-    {}
-#define ENCODER_RESOLUTIONS \
-    {}
-#define ENCODERS_PAD_A_RIGHT \
-    { GP20 }
-#define ENCODERS_PAD_B_RIGHT \
-    { GP22 }
-#define ENCODER_RESOLUTIONS_RIGHT \
-    { 4 }
-
 #define BOOTMAGIC_LITE_ROW 0
 #define BOOTMAGIC_LITE_COLUMN 4
 #define BOOTMAGIC_LITE_ROW_RIGHT 4

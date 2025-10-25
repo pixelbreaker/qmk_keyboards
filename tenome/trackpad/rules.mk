@@ -14,7 +14,6 @@ RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 
 RGB_MATRIX_ENABLE = yes     # Enable WS2812 RGB matrix
 NKRO_ENABLE = no            # Enable N-Key Rollover
-# RGB_MATRIX_DRIVER = WS2812
 SPLIT_KEYBOARD = yes
 SERIAL_DRIVER = vendor
 
