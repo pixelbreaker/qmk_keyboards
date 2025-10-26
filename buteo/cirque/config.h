@@ -3,9 +3,6 @@
 
 #pragma once
 
-// Limits the frequency that the sensor is polled for motion.
-#define POINTING_DEVICE_TASK_THROTTLE_MS 1
-
 // Enables support for extended i16 mouse reports (instead of i8).
 #define MOUSE_EXTENDED_REPORT
 

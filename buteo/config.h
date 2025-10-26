@@ -10,3 +10,6 @@
 #define I2C_DRIVER I2CD0
 #define I2C1_SDA_PIN GP0
 #define I2C1_SCL_PIN GP1
+
+// Limits the frequency that the sensor is polled for motion.
+#define POINTING_DEVICE_TASK_THROTTLE_MS 1

@@ -11,6 +11,15 @@
     "device_version": "0.0.2"
   },
   "diode_direction": "COL2ROW",
+  "features": {
+    "bootmagic": true,
+    "console": true,
+    "encoder": true,
+    "extrakey": true,
+    "mousekey": false,
+    "pointing_device": true,
+    "rgb_matrix": false
+  },
   "bootmagic": {
     "matrix": [0, 0]
   },
@@ -22,7 +31,7 @@
     "rows": ["GP6", "GP7", "GP8", "GP26", "GP15", "GP14"]
   },
   "layouts": {
-    "LAYOUT_23332x2_enc": {
+    "LAYOUT": {
       "layout": [
         { "matrix": [0, 0], "x": 0, "y": 0 },
         { "matrix": [0, 1], "x": 1, "y": 0 },
