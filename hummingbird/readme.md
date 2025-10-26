@@ -1,8 +1,8 @@
-# hummingbird
+# Hummingbird
 
 ![hummingbird](https://github.com/PJE66/hummingbird/blob/main/Images/Hummingbird_Top.png?raw=true)
 
-*A 30-key split-unibody column-stagger keyboard.*  
+*A 30-key split-unibody column-stagger keyboard.*
 **IMPORTANT: This firmware is only suitable for the Seeed Xiao RP2040 MCU!**
 If you would like to use a different MCU, please consider using ZMK firmware.
 

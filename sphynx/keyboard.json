@@ -10,15 +10,40 @@
   },
   "processor": "RP2040",
   "bootloader": "rp2040",
+  "build": {
+    "lto": true
+  },
   "split": {
+    "enabled": true,
+    "serial": {
+      "driver": "vendor"
+    },
+    "handedness": {
+      "pin": "GP27"
+    },
     "encoder": {
       "right": {
         "rotary": [{ "pin_a": "GP20", "pin_b": "GP22", "resolution": 4 }]
       }
     }
   },
+  "diode_direction": "COL2ROW",
+  "matrix_pins": {
+    "cols": ["GP6", "GP7", "GP8", "GP9", "GP12"],
+    "rows": ["GP2", "GP3", "GP4", "GP5"]
+  },
+  "features": {
+    "bootmagic": true,
+    "encoder": true,
+    "extrakey": true,
+    "mousekey": false,
+    "console": true,
+    "pointing_device": false,
+    "rgb_matrix": false,
+    "rgblight": false
+  },
   "layouts": {
-    "LAYOUT_split_3x5_4": {
+    "LAYOUT": {
       "layout": [
         { "matrix": [0, 4], "x": 0, "y": 0 },
         { "matrix": [0, 3], "x": 1, "y": 0 },

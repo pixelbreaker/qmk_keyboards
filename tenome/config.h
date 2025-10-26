@@ -18,25 +18,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-// wiring of each half
-// #define MATRIX_COL_PINS  { GP8, GP7, GP6, GP5, GP4 }
-// #define MATRIX_ROW_PINS  { GP21, GP29, GP28, GP27 }
-
-#define DIODE_DIRECTION COL2ROW
-#define USB_POLLING_INTERVAL_MS 1
-
 /* Handedness. */
 // #define MASTER_RIGHT
 // #define SERIAL_USART_HALF_DUPLEX // Enable full duplex operation mode.
-#define SOFT_SERIAL_PIN GP1 // USART TX pin
+// #define SOFT_SERIAL_PIN GP1 // USART TX pin
 // #define SERIAL_USART_PIN_SWAP
 
 // #define SERIAL_USART_TX_PIN GP0
-#define SPLIT_HAND_PIN GP15
+// #define SPLIT_HAND_PIN GP15
 #define SPLIT_HAND_PIN_LOW_IS_LEFT
 
 // #define RGB_DI_PIN GP0
-#define WS2812_DI_PIN GP0
+// #define WS2812_DI_PIN GP0
 #define ENABLE_RGB_MATRIX_TYPING_HEATMAP
 
 /* RP2040 stuff*/
@@ -60,6 +53,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define BOOTMAGIC_LITE_COLUMN_RIGHT 4
 
 /* RGB settings. */
+/*
 #ifdef RGB_MATRIX_ENABLE
 #define TENOME_ENCODER_LEDS
 #ifdef TENOME_ENCODER_LEDS
@@ -137,3 +131,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ENABLE_RGB_MATRIX_SOLID_MULTISPLASH
 #endif // !__arm__
 #endif
+*/
